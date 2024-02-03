@@ -26,7 +26,7 @@ export default function App() {
             </main>
             <Footer />
           </div>
-          <ToastContainer />
+          <ToastContainer theme={darkMode ? "dark" : "light"} />
         </MovieContext.Provider>
       </ThemeContext.Provider>
     </>
